@@ -15,6 +15,8 @@ body{
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   padding:24px;
+  /* make type-size comfortable on smaller screens */
+  font-size:16px;
 }
 
 .container{
@@ -93,8 +95,46 @@ h2{margin-top:22px;font-size:18px;color:#0b1220}
 
 ul{padding-left:20px}
 
+/* Tablet and below: stack the profile layout */
 @media (max-width:900px){
   .profile-section{grid-template-columns:1fr;}
+  .container{margin:20px auto;padding:28px}
+}
+
+/* Small screens: make header stack, full-width side card, friendly spacing */
+@media (max-width:600px){
+  body{padding:14px;font-size:15px}
+  .container{margin:12px auto;padding:18px;border-radius:10px}
+
+  header.site-header{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:12px;
+  }
+
+  header.site-header .title{font-size:20px}
+  .subtitle{font-size:13px}
+
+  .profile-section{grid-template-columns:1fr;gap:16px}
+  .side-card{width:100%;order:2}
+  .profile-summary{order:1}
+
+  /* make buttons and CTAs full width on small screens */
+  .download-btn{width:100%;display:block;text-align:center}
+
+  /* timeline: reduce left gutter and center content for narrow screens */
+  .timeline{padding-left:10px}
+  .timeline:before{left:6px}
+  .timeline-item{padding:10px 10px 10px 22px}
+  .timeline-item:before{left:-7px;top:16px;width:10px;height:10px}
+
+  /* skill chips wrap better on small screens */
+  .skills-grid{gap:6px}
+  .skill-chip{padding:6px 8px;font-size:12px;margin:6px 6px 6px 0}
+
+  /* avoid large hover transforms on touch devices */
+  .timeline-item:hover{transform:none;box-shadow:none}
+  .skill-chip:hover{transform:none}
 }
 
 @media print{
