@@ -168,22 +168,14 @@ ul{padding-left:20px}
 .site-footer .footer-text{margin:0;font-size:12px}
 .site-footer .footer-socials{display:flex;gap:10px;align-items:center}
 .site-footer .footer-link{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:transparent;color:var(--muted);text-decoration:none;padding:8px;border-radius:8px;font-weight:600;border:1px solid rgba(15,23,36,0.06);box-shadow:none;transition:transform .12s ease,box-shadow .12s ease,background .12s ease}
+
 .site-footer .footer-link svg{display:block;width:20px;height:20px}
 .site-footer .footer-link:hover{transform:translateY(-2px);background:#f8fafc;box-shadow:0 6px 14px rgba(2,6,23,0.04);opacity:0.98}
 
-/* LinkedIn brand filled button: blue background with white icon */
-.footer-link--outline{
-  background:#0A66C2;
-  color:#ffffff;
-  border:1px solid rgba(10,102,194,0.12);
-  box-shadow:0 6px 14px rgba(10,102,194,0.14);
-}
-.footer-link--outline:hover{
-  transform:translateY(-2px);
-  box-shadow:0 10px 22px rgba(10,102,194,0.18);
-  background:#094fa8;
-  opacity:0.98;
-}
+/* icon background (small blue rounded rect) while keeping the surrounding button muted */
+.icon-bg{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:8px;background:#0A66C2;color:#fff;margin-right:8px}
+.icon-bg svg{width:16px;height:16px;display:block;fill:currentColor}
+.footer-link:hover .icon-bg{background:#094fa8}
 
 /* accessible visually-hidden text */
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}

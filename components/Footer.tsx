@@ -48,21 +48,23 @@ export default function Footer() {
               href={linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="footer-link footer-link--outline"
+              className="footer-link"
               aria-label="Open LinkedIn profile (opens in new tab)"
               title="LinkedIn"
               onClick={handleClick}
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                width="20"
-                height="20"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.2 4-2.2 4.3 0 5.1 2.8 5.1 6.4V24h-5V15.5c0-2.1 0-4.9-3-4.9-3 0-3.5 2.4-3.5 4.8V24h-5V8z" />
-              </svg>
+              <span className="icon-bg" aria-hidden>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.2 4-2.2 4.3 0 5.1 2.8 5.1 6.4V24h-5V15.5c0-2.1 0-4.9-3-4.9-3 0-3.5 2.4-3.5 4.8V24h-5V8z" />
+                </svg>
+              </span>
               <span className="sr-only">LinkedIn</span>
             </a>
           </div>
