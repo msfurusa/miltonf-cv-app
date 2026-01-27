@@ -13,3 +13,8 @@
     text-decoration: none;
   }
 }
+
+@media print{
+  header.site-header{display:block}
+  .side-card{display:none}
+}
