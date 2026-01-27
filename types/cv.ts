@@ -17,6 +17,7 @@ export interface CV {
   title?: string;
   location?: string;
   email?: string;
+  linkedin?: string;
   phone?: string;
   summary?: string;
   skills?: Record<string, string[]>;

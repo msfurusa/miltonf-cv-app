@@ -5,6 +5,7 @@ const cv: CV = {
   title: "DevOps / Cloud / Software Engineer",
   location: "Midrand, Gauteng, South Africa",
   email: "msfurusa@gmail.com",
+  linkedin: "linkedin.com/in/milton-sipho-furusa",
   phone: "+27 78 525 5566",
 
   summary: `
