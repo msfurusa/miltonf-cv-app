@@ -58,15 +58,10 @@ export default function Footer() {
                 viewBox="0 0 24 24"
                 width="20"
                 height="20"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
+                fill="currentColor"
                 aria-hidden="true"
               >
-                <rect x="2" y="2" width="20" height="20" rx="3" />
-                <path d="M6 9h3v10H6zM7.5 6.5a1.5 1.5 0 11-.001-3.001A1.5 1.5 0 017.5 6.5zM13 14v5h3v-5c0-2.5 3-2.7 3 0v5" />
+                <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.2 4-2.2 4.3 0 5.1 2.8 5.1 6.4V24h-5V15.5c0-2.1 0-4.9-3-4.9-3 0-3.5 2.4-3.5 4.8V24h-5V8z" />
               </svg>
               <span className="sr-only">LinkedIn</span>
             </a>
