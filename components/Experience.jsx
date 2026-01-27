@@ -1,11 +1,23 @@
-import React from "react";
-
-export default function Experience() {
-  // Minimal placeholder — replace with structured experience data if available
+export default function Experience({ experience }) {
   return (
-    <section className="mb-6">
-      <h2 className="text-xl font-semibold">Experience</h2>
-      <p className="mt-2 text-zinc-700">See CV data — detailed experience component not implemented yet.</p>
+    <section>
+      <h2>Work Experience</h2>
+      {experience.map((job, i) => (
+        <div key={i}>
+          <h3>
+            {job.role} – {job.company}
+          </h3>
+          <em>{job.period}</em>
+          <ul>
+            {job.bullets.map((b, j) => (
+              <li key={j}>{b}</li>
+            ))}
+          </ul>
+          <p>
+            <strong>Tools:</strong> {job.tools}
+          </p>
+        </div>
+      ))}
     </section>
   );
 }

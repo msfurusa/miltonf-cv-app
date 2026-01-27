@@ -1,10 +1,11 @@
-import React from "react";
-
-export default function Header({ data }) {
+export default function Header({ cv }) {
   return (
-    <header className="mb-6">
-      <h1 className="text-3xl font-bold">{data.name}</h1>
-      <p className="text-sm text-zinc-600">{data.contact}</p>
+    <header>
+      <h1>{cv.name}</h1>
+      <h2>{cv.title}</h2>
+      <p>
+        {cv.location} · {cv.email} · {cv.phone}
+      </p>
     </header>
   );
 }
