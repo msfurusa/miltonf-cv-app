@@ -167,14 +167,14 @@ ul{padding-left:20px}
 .site-footer .footer-inner{max-width:900px;margin:18px auto;padding:12px 36px;border-top:1px solid rgba(15,23,36,0.04);display:flex;align-items:center;justify-content:space-between;gap:12px}
 .site-footer .footer-text{margin:0;font-size:12px}
 .site-footer .footer-socials{display:flex;gap:10px;align-items:center}
-.site-footer .footer-link{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:transparent;color:var(--muted);text-decoration:none;padding:8px;border-radius:8px;font-weight:600;border:1px solid rgba(15,23,36,0.06);box-shadow:none;transition:transform .12s ease,box-shadow .12s ease,background .12s ease}
+.site-footer .footer-link{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:transparent;color:var(--muted);text-decoration:none;padding:6px;border-radius:8px;font-weight:600;border:1px solid rgba(15,23,36,0.06);box-shadow:none;transition:transform .12s ease,box-shadow .12s ease,background .12s ease}
 
-.site-footer .footer-link svg{display:block;width:20px;height:20px}
+.site-footer .footer-link svg{display:block;width:18px;height:18px}
 .site-footer .footer-link:hover{transform:translateY(-2px);background:#f8fafc;box-shadow:0 6px 14px rgba(2,6,23,0.04);opacity:0.98}
 
 /* icon background (small blue rounded rect) while keeping the surrounding button muted */
-.icon-bg{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:8px;background:#0A66C2;color:#fff;margin-right:8px}
-.icon-bg svg{width:16px;height:16px;display:block;fill:currentColor}
+.icon-bg{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;background:#0A66C2;color:#fff;margin-right:6px}
+.icon-bg svg{width:14px;height:14px;display:block;fill:currentColor}
 .footer-link:hover .icon-bg{background:#094fa8}
 
 /* accessible visually-hidden text */
