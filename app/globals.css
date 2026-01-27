@@ -36,6 +36,27 @@ header.site-header{
   gap:20px;
 }
 
+.header-actions{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.contact-info{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  text-align:right;
+  font-size:13px;
+  color:var(--muted);
+}
+
+.contact-link{color:var(--muted);text-decoration:none}
+.contact-link:hover{text-decoration:underline}
+
+.contact-links{margin-top:8px;color:var(--muted);font-size:13px}
+.contact-sep{color:var(--muted)}
+
 header.site-header .title{
   margin:0;
   font-size:28px;
@@ -114,6 +135,10 @@ ul{padding-left:20px}
     align-items:flex-start;
     gap:12px;
   }
+
+  /* stack the header actions on small screens and left-align contact info */
+  .header-actions{width:100%;flex-direction:column;align-items:flex-start;gap:10px}
+  .contact-info{align-items:flex-start;text-align:left}
 
   header.site-header .title{font-size:20px}
   .subtitle{font-size:13px}
