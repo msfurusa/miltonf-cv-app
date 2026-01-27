@@ -7,7 +7,7 @@ export default function Header({ cv }: { cv: CV }) {
       <div>
         <h1 className="title">{cv.name}</h1>
         <p className="subtitle">{cv.title}</p>
-        <p className="subtitle">{cv.location} · {cv.email} · {cv.phone}</p>
+  <p className="subtitle">{cv.location}</p>
       </div>
       {/* side-card removed: contact details are already shown in the subtitle to avoid duplication */}
     </header>
