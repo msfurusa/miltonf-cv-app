@@ -9,7 +9,7 @@ const cv: CV = {
   phone: "+27 78 525 5566",
 
   summary: `
-DevOps and Cloud Engineer with extensive experience in cloud infrastructure,
+DevOps Cloud and Software Engineer with extensive experience in cloud infrastructure,
 CI/CD automation, Kubernetes, monitoring, and enterprise systems.
 Strong background in AWS, Azure, and GCP, supporting production platforms
 and optimizing system reliability, performance, and security.
