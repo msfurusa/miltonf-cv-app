@@ -7,9 +7,9 @@ export interface ExperienceItem {
 }
 
 export interface EducationItem {
-  degree?: string;
+  qualification?: string;
   institution?: string;
-  period?: string;
+  year?: string;
 }
 
 export interface CV {

@@ -8,9 +8,9 @@ export default function Education({ education }: { education?: EducationItem[] }
       <h2>Education</h2>
       {education.map((e, i) => (
         <div key={i}>
-          <h3>{e.degree}</h3>
+          <h3>{e.qualification}</h3>
           <p>
-            {e.institution} • {e.period}
+            {e.institution} • {e.year}
           </p>
         </div>
       ))}
