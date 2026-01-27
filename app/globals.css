@@ -48,6 +48,9 @@ header.site-header .title{
   font-size:14px;
 }
 
+/* Allow long contact strings to wrap cleanly on small screens */
+.subtitle{overflow-wrap:break-word;word-break:break-word}
+
 .profile-section{
   margin-top:20px;
   display:grid;

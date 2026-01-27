@@ -9,10 +9,7 @@ export default function Header({ cv }: { cv: CV }) {
         <p className="subtitle">{cv.title}</p>
         <p className="subtitle">{cv.location} · {cv.email} · {cv.phone}</p>
       </div>
-      <div className="side-card">
-        <p style={{margin:0,fontSize:14,color:'#0b1220'}}>Contact</p>
-        <p style={{margin:'6px 0 0 0',color:'#475569'}}>{cv.email}<br/>{cv.phone}</p>
-      </div>
+      {/* side-card removed: contact details are already shown in the subtitle to avoid duplication */}
     </header>
   );
 }
