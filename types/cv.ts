@@ -20,6 +20,7 @@ export interface CV {
   email?: string;
   linkedin?: string;
   phone?: string;
+  profile?: string;
   summary?: string;
   skills?: Record<string, string[]>;
   experience?: ExperienceItem[];
