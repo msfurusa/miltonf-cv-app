@@ -2,14 +2,14 @@ import type { CV } from "@/types/cv";
 
 const cv: CV = {
   name: "Milton Sipho Furusa",
-  title: "Software Engineer | Cloud | DevOps",
+  title: "Software Engineer | Cloud & DevOps",
   location: "Midrand, Gauteng, South Africa",
   email: "msfurusa@gmail.com",
   linkedin: "linkedin.com/in/milton-sipho-furusa",
   phone: "+27 78 525 5566",
 
   summary: `
-Software Engineer Cloud & DevOps and  with extensive experience in cloud infrastructure,
+Software Engineer with extensive experience in cloud infrastructure,
 CI/CD automation, Kubernetes, monitoring, and enterprise systems.
 Strong background in AWS, Azure, and GCP, supporting production platforms
 and optimizing system reliability, performance, and security.
@@ -54,7 +54,6 @@ and optimizing system reliability, performance, and security.
         "Optimized and tuned Apache Kafka topics for performance and reliability.",
         "Automation of system infrastructure and deployments.",
         "Investigate and resolve application and infrastructure issues.",
-        "Assisting with production support, hyper-care after production deployments.",
       ],
       tools:
         "AWS, Java, GitHub Actions, Kubernetes, Kafka, Prometheus, Grafana, Argo CD, ITSM",
@@ -110,7 +109,7 @@ and optimizing system reliability, performance, and security.
       tools: "Azure DevOps, C#, .Net, CI/CD, Git, Terraform, Kubernetes, Docker, SonarQube, PowerShell",
     },
     {
-      role: "Infrastructure / Systems Engineer",
+      role: "Systems Engineer",
       company: "BCX",
       period: "Dec 2011 – May 2020",
       bullets: [
