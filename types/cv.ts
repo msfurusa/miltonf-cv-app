@@ -10,6 +10,7 @@ export interface EducationItem {
   qualification?: string;
   institution?: string;
   year?: string;
+  modules?: string[];
 }
 
 export interface CV {
