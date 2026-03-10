@@ -8,7 +8,7 @@ const cv: CV = {
   linkedin: "linkedin.com/in/milton-sipho-furusa",
   phone: "+27 78 525 5566",
 
-  profile: `A dedicated professional with a passion for DevOps and cloud technologies, focused on delivering scalable solutions.`,
+  profile: `A dedicated professional with a passion for Software engineering, DevOps, and Cloud technologies, focused on delivering scalable solutions.`,
 
   summary: `
 Software Engineer with extensive experience in cloud infrastructure,
