@@ -14,7 +14,7 @@ export default function Home(): React.ReactElement {
   return (
     <main className="container">
   <Header cv={data} />
-      <Profile summary={data.summary} />
+      <Profile profile={data.profile} />
       <Summary text={data.summary} />
       <Skills skills={data.skills} />
       <Experience experience={data.experience} />
