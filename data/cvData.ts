@@ -145,7 +145,6 @@ and optimizing system reliability, performance, and security.
     "Kubernetes & Cloud Native Essentials (Linux Foundation)",
     "Google Cloud Architecting Specialization",
     "Full-Stack Web Development with React",
-    ""
   ],
 
   education: [
@@ -155,14 +154,10 @@ and optimizing system reliability, performance, and security.
       institution: "Eduvos",
       year: "2025",
       modules: [
-        "Front-end & Backend Technologies and Frameworks",
-        "Embedded System Software Development",
-        "Service-Oriented & Microservices Architecture",
-        "Computer Graphics and Game Development",
-        "Hybrid Mobile Application Development (Java & Android)",
-        "Data Mining and Database Administration",
-        "IT Research Methodologies",
-        "Dissertation",
+        "Front-end & Backend Technologies and Frameworks", "Embedded System Software Development",
+        "Service-Oriented & Microservices Architecture", "Computer Graphics and Game Development",
+        "Hybrid Mobile Application Development (Java & Android)", "Data Mining and Database Administration",
+        "IT Research Methodologies", "Dissertation",
       ],
     },
     {
@@ -171,7 +166,7 @@ and optimizing system reliability, performance, and security.
       institution: "Richfield Graduate Institute of Technology",
       year: "2024",
       modules: [
-        "1st Year: Mathematics, Programming (VB.Net), Web Technology (JavaScript, HTML, CSS), Information Systems, Networking",
+        "1st Year: Mathematics, Programming (VB.Net), Web Technology (JavaScript HTML CSS), Information Systems, Networking",
         "2nd Year: Programming (C++, Python), Cloud Computing, Databases, Information Systems, Computer Architecture, Big Data and IoT, Machine Learning, Server Technology",
         "3rd Year: Software Engineering, Programming (Java), Cyber Security, Artificial Intelligence, Mobile App Development (Java & Android), Human Computer Interaction, IT Project",
       ],
